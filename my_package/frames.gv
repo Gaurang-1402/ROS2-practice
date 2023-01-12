@@ -1,0 +1,12 @@
+digraph G {
+"world" -> "base"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"world" -> "camera"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base" -> "l3"[label=" Broadcaster: default_authority\nAverage rate: 10.204\nBuffer length: 4.9\nMost recent transform: 1672835054.437034\nOldest transform: 1672835049.537048\n"];
+"l1" -> "grip"[label=" Broadcaster: default_authority\nAverage rate: 10.204\nBuffer length: 4.9\nMost recent transform: 1672835054.437034\nOldest transform: 1672835049.537048\n"];
+"l2" -> "l1"[label=" Broadcaster: default_authority\nAverage rate: 10.204\nBuffer length: 4.9\nMost recent transform: 1672835054.437034\nOldest transform: 1672835049.537048\n"];
+"l3" -> "l2"[label=" Broadcaster: default_authority\nAverage rate: 10.204\nBuffer length: 4.9\nMost recent transform: 1672835054.437034\nOldest transform: 1672835049.537048\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1672835054.4963856"[ shape=plaintext ] ;
+}->"world";
+}
