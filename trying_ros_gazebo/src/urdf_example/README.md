@@ -1,17 +1,3 @@
-# URDF Example
-
-
-This repo contains an example of a URDF file and a launch script to run it. (ROS 2)
-This is part of a tutorial on creating URDF files, available at the links below:
-
-YouTube:
-[![See video for example](https://img.youtube.com/vi/CwdbsvcpOHM/0.jpg)](https://youtu.be/CwdbsvcpOHM)
-
-Blog Post:
-[https://articulatedrobotics.xyz/ready-for-ros-7-urdf/](https://articulatedrobotics.xyz/ready-for-ros-7-urdf/)
-
-
-
 ## How To Run
 
 
