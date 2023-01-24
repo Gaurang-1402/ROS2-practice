@@ -1,6 +1,0 @@
-Invoking command in '/home/dev/Desktop/dev_ws/build/urdf_example': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/dev/Desktop/dev_ws/src/urdf_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dev/Desktop/dev_ws/install/urdf_example
-Invoked command in '/home/dev/Desktop/dev_ws/build/urdf_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/dev/Desktop/dev_ws/src/urdf_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dev/Desktop/dev_ws/install/urdf_example
-Invoking command in '/home/dev/Desktop/dev_ws/build/urdf_example': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dev/Desktop/dev_ws/build/urdf_example -- -j8 -l8
-Invoked command in '/home/dev/Desktop/dev_ws/build/urdf_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dev/Desktop/dev_ws/build/urdf_example -- -j8 -l8
-Invoking command in '/home/dev/Desktop/dev_ws/build/urdf_example': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/dev/Desktop/dev_ws/build/urdf_example
-Invoked command in '/home/dev/Desktop/dev_ws/build/urdf_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/dev/Desktop/dev_ws/build/urdf_example

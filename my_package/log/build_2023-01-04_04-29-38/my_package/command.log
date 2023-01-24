@@ -1,6 +1,0 @@
-Invoking command in '/home/dev/Desktop/dev_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/dev/Desktop/dev_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/dev/Desktop/dev_ws/install/my_package
-Invoked command in '/home/dev/Desktop/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/dev/Desktop/dev_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/dev/Desktop/dev_ws/install/my_package
-Invoking command in '/home/dev/Desktop/dev_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dev/Desktop/dev_ws/build/my_package -- -j8 -l8
-Invoked command in '/home/dev/Desktop/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dev/Desktop/dev_ws/build/my_package -- -j8 -l8
-Invoking command in '/home/dev/Desktop/dev_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/dev/Desktop/dev_ws/build/my_package
-Invoked command in '/home/dev/Desktop/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/dev/Desktop/dev_ws/build/my_package
