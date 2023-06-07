@@ -9,7 +9,19 @@ endif()
 find_package(ament_cmake REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
-# find_package(<dependency> REQUIRED)
+find_package(ament_cmake_python REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(rclpy REQUIRED)
+
+# directory where the python node scripts are located in the form of a py package
+ament_python_install_package(scripts)
+
+# add every python node here
+install(PROGRAMS
+  scripts/publisher.py
+  scripts/subscriber.py
+  DESTINATION lib/${PROJECT_NAME}
+)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
