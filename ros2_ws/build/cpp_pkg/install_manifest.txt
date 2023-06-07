@@ -1,0 +1,16 @@
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/lib/cpp_pkg/cpp_node
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_pkg
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_pkg
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/cpp_pkg/environment/ament_prefix_path.sh
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/cpp_pkg/environment/ament_prefix_path.dsv
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/cpp_pkg/environment/path.sh
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/cpp_pkg/environment/path.dsv
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/cpp_pkg/local_setup.bash
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/cpp_pkg/local_setup.sh
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/cpp_pkg/local_setup.zsh
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/cpp_pkg/local_setup.dsv
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/cpp_pkg/package.dsv
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/ament_index/resource_index/packages/cpp_pkg
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/cpp_pkg/cmake/cpp_pkgConfig.cmake
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/cpp_pkg/cmake/cpp_pkgConfig-version.cmake
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/cpp_pkg/package.xml

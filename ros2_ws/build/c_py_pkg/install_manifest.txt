@@ -1,0 +1,15 @@
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/ament_index/resource_index/package_run_dependencies/c_py_pkg
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/ament_index/resource_index/parent_prefix_path/c_py_pkg
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/c_py_pkg/environment/ament_prefix_path.sh
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/c_py_pkg/environment/ament_prefix_path.dsv
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/c_py_pkg/environment/path.sh
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/c_py_pkg/environment/path.dsv
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/c_py_pkg/local_setup.bash
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/c_py_pkg/local_setup.sh
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/c_py_pkg/local_setup.zsh
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/c_py_pkg/local_setup.dsv
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/c_py_pkg/package.dsv
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/ament_index/resource_index/packages/c_py_pkg
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/c_py_pkg/cmake/c_py_pkgConfig.cmake
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/c_py_pkg/cmake/c_py_pkgConfig-version.cmake
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/c_py_pkg/package.xml
