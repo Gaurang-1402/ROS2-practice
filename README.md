@@ -1,6 +1,12 @@
 # ROS-learnings
 🏫Experiments with ROS2 and Gazebo
 
+Important: Deactivate anaconda
+
+```
+conda deactivate
+```
+
 The following links helped me in this repo
 https://www.udemy.com/course/ros2-robotics-developer-course-using-ros2-in-python/?kw=ros2&src=sac
 https://www.youtube.com/watch?v=RoRq4XpDEtQ
