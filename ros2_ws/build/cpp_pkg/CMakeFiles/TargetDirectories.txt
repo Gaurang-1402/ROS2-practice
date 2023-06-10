@@ -1,6 +1,8 @@
 /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/cpp_pkg/CMakeFiles/uninstall.dir
 /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/cpp_pkg/CMakeFiles/cpp_pkg_uninstall.dir
 /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/cpp_pkg/CMakeFiles/cpp_node.dir
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/cpp_pkg/CMakeFiles/robot_news_station.dir
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/cpp_pkg/CMakeFiles/smartphone.dir
 /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/cpp_pkg/CMakeFiles/test.dir
 /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/cpp_pkg/CMakeFiles/edit_cache.dir
 /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/cpp_pkg/CMakeFiles/rebuild_cache.dir

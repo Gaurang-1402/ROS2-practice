@@ -43,62 +43,15 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/c_py_pkg/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/c_py_pkg")
+  include("/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/c_py_pkg/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/c_py_pkg/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/c_py_pkg")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/c_py_pkg/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/c_py_pkg/environment" TYPE FILE FILES "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/c_py_pkg/ament_cmake_environment_hooks/ament_prefix_path.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/c_py_pkg/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/c_py_pkg/environment" TYPE FILE FILES "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/c_py_pkg/ament_cmake_environment_hooks/path.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/c_py_pkg" TYPE FILE FILES "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/c_py_pkg/ament_cmake_environment_hooks/local_setup.bash")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/c_py_pkg" TYPE FILE FILES "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/c_py_pkg/ament_cmake_environment_hooks/local_setup.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/c_py_pkg" TYPE FILE FILES "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/c_py_pkg/ament_cmake_environment_hooks/local_setup.zsh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/c_py_pkg" TYPE FILE FILES "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/c_py_pkg/ament_cmake_environment_hooks/local_setup.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/c_py_pkg" TYPE FILE FILES "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/c_py_pkg/ament_cmake_environment_hooks/package.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/c_py_pkg/ament_cmake_index/share/ament_index/resource_index/packages/c_py_pkg")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/c_py_pkg/cmake" TYPE FILE FILES
-    "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/c_py_pkg/ament_cmake_core/c_py_pkgConfig.cmake"
-    "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/c_py_pkg/ament_cmake_core/c_py_pkgConfig-version.cmake"
-    )
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/c_py_pkg" TYPE FILE FILES "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/c_py_pkg/package.xml")
+  execute_process(
+        COMMAND
+        "/usr/bin/python3.10" "-m" "compileall"
+        "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/local/lib/python3.10/dist-packages/scripts"
+      )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

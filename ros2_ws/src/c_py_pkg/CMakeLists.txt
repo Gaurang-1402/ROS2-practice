@@ -20,6 +20,8 @@ ament_python_install_package(scripts)
 install(PROGRAMS
   scripts/publisher.py
   scripts/subscriber.py
+  scripts/robot_news_station.py
+  scripts/smartphone.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

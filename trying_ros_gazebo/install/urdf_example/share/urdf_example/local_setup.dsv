@@ -1,1 +1,2 @@
-/home/dev/Desktop/dev_ws/build/urdf_example/ament_cmake_environment_hooks/local_setup.dsv
+source;share/urdf_example/environment/ament_prefix_path.sh
+source;share/urdf_example/environment/path.sh

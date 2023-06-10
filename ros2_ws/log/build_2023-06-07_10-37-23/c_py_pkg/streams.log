@@ -1,0 +1,31 @@
+[0.014s] Invoking command in '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/c_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/c_py_pkg -- -j24 -l24
+[0.024s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.118s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.124s] -- Found rclpy: 3.3.5 (/opt/ros/humble/share/rclpy/cmake)
+[0.162s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:106 (add_custom_target):
+[0.162s]   add_custom_target called with invalid target name
+[0.162s]   "ament_cmake_python_symlink_scripts/".  Target names may not contain a
+[0.162s]   slash.  Use ADD_CUSTOM_COMMAND to generate files.
+[0.162s] Call Stack (most recent call first):
+[0.162s]   /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+[0.162s]   CMakeLists.txt:16 (ament_python_install_package)
+[0.162s] 
+[0.162s] [0m
+[0.163s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:141 (add_custom_target):
+[0.163s]   add_custom_target called with invalid target name
+[0.163s]   "ament_cmake_python_build_scripts/_egg".  Target names may not contain a
+[0.163s]   slash.  Use ADD_CUSTOM_COMMAND to generate files.
+[0.163s] Call Stack (most recent call first):
+[0.163s]   /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+[0.163s]   CMakeLists.txt:16 (ament_python_install_package)
+[0.163s] 
+[0.163s] [0m
+[0.163s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.202s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.202s] -- Added test 'lint_cmake' to check CMake code style
+[0.202s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.203s] -- Added test 'xmllint' to check XML markup files
+[0.203s] -- Configuring incomplete, errors occurred!
+[0.204s] See also "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/c_py_pkg/CMakeFiles/CMakeOutput.log".
+[0.206s] gmake: *** [Makefile:254: cmake_check_build_system] Error 1
+[0.207s] Invoked command in '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/c_py_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/c_py_pkg -- -j24 -l24

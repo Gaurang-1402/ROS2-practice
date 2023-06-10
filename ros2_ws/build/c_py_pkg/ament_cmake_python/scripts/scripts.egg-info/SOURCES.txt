@@ -1,0 +1,11 @@
+setup.py
+scripts/__init__.py
+scripts/publisher.py
+scripts/py_node_template.py
+scripts/robot_news_station.py
+scripts/smartphone.py
+scripts/subscriber.py
+scripts.egg-info/PKG-INFO
+scripts.egg-info/SOURCES.txt
+scripts.egg-info/dependency_links.txt
+scripts.egg-info/top_level.txt

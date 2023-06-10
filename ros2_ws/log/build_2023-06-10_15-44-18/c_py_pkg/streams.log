@@ -1,0 +1,68 @@
+[0.025s] Invoking command in '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/c_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/c_py_pkg -- -j24 -l24
+[0.040s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.134s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.138s] -- Found rclcpp: 16.0.2 (/opt/ros/humble/share/rclcpp/cmake)
+[0.159s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.160s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.164s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.170s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.179s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.219s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.220s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.298s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.401s] -- Found rclpy: 3.3.5 (/opt/ros/humble/share/rclpy/cmake)
+[0.444s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.488s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.488s] -- Added test 'lint_cmake' to check CMake code style
+[0.488s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.489s] -- Added test 'xmllint' to check XML markup files
+[0.489s] -- Configuring done
+[0.492s] -- Generating done
+[0.493s] -- Build files have been written to: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/c_py_pkg
+[0.517s] Built target ament_cmake_python_symlink_scripts
+[0.666s] running egg_info
+[0.666s] writing scripts.egg-info/PKG-INFO
+[0.666s] writing dependency_links to scripts.egg-info/dependency_links.txt
+[0.666s] writing top-level names to scripts.egg-info/top_level.txt
+[0.668s] reading manifest file 'scripts.egg-info/SOURCES.txt'
+[0.668s] writing manifest file 'scripts.egg-info/SOURCES.txt'
+[0.684s] Built target ament_cmake_python_build_scripts_egg
+[0.698s] Invoked command in '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/c_py_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/c_py_pkg -- -j24 -l24
+[0.710s] Invoking command in '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/c_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/c_py_pkg
+[0.715s] -- Install configuration: ""
+[0.715s] -- Execute custom install script
+[0.715s] -- Up-to-date symlink: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/c_py_pkg/environment/pythonpath.sh
+[0.715s] -- Up-to-date symlink: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/c_py_pkg/environment/pythonpath.dsv
+[0.716s] -- Up-to-date symlink: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/PKG-INFO
+[0.716s] -- Up-to-date symlink: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.716s] -- Up-to-date symlink: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.716s] -- Up-to-date symlink: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/top_level.txt
+[0.716s] -- Up-to-date symlink: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/local/lib/python3.10/dist-packages/scripts/__init__.py
+[0.716s] -- Up-to-date symlink: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/local/lib/python3.10/dist-packages/scripts/publisher.py
+[0.716s] -- Symlinking: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/local/lib/python3.10/dist-packages/scripts/py_node_template.py
+[0.721s] -- Up-to-date symlink: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/local/lib/python3.10/dist-packages/scripts/robot_news_station.py
+[0.721s] -- Symlinking: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/local/lib/python3.10/dist-packages/scripts/smartphone.py
+[0.726s] -- Up-to-date symlink: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/local/lib/python3.10/dist-packages/scripts/subscriber.py
+[0.726s] -- Up-to-date symlink: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/lib/c_py_pkg/publisher.py
+[0.726s] -- Up-to-date symlink: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/lib/c_py_pkg/subscriber.py
+[0.726s] -- Up-to-date symlink: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/lib/c_py_pkg/robot_news_station.py
+[0.727s] -- Symlinking: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/lib/c_py_pkg/smartphone.py
+[0.731s] -- Up-to-date symlink: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/ament_index/resource_index/package_run_dependencies/c_py_pkg
+[0.731s] -- Up-to-date symlink: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/ament_index/resource_index/parent_prefix_path/c_py_pkg
+[0.731s] -- Up-to-date symlink: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/c_py_pkg/environment/ament_prefix_path.sh
+[0.731s] -- Up-to-date symlink: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/c_py_pkg/environment/ament_prefix_path.dsv
+[0.731s] -- Up-to-date symlink: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/c_py_pkg/environment/path.sh
+[0.732s] -- Up-to-date symlink: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/c_py_pkg/environment/path.dsv
+[0.732s] -- Up-to-date symlink: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/c_py_pkg/local_setup.bash
+[0.732s] -- Up-to-date symlink: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/c_py_pkg/local_setup.sh
+[0.732s] -- Up-to-date symlink: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/c_py_pkg/local_setup.zsh
+[0.732s] -- Up-to-date symlink: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/c_py_pkg/local_setup.dsv
+[0.732s] -- Symlinking: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/c_py_pkg/package.dsv
+[0.739s] -- Up-to-date symlink: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/ament_index/resource_index/packages/c_py_pkg
+[0.739s] -- Up-to-date symlink: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/c_py_pkg/cmake/c_py_pkgConfig.cmake
+[0.739s] -- Up-to-date symlink: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/c_py_pkg/cmake/c_py_pkgConfig-version.cmake
+[0.739s] -- Up-to-date symlink: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/c_py_pkg/package.xml
+[0.761s] Listing '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/local/lib/python3.10/dist-packages/scripts'...
+[0.762s] Compiling '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/local/lib/python3.10/dist-packages/scripts/py_node_template.py'...
+[0.762s] Compiling '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/local/lib/python3.10/dist-packages/scripts/smartphone.py'...
+[0.770s] Invoked command in '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/c_py_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/c_py_pkg

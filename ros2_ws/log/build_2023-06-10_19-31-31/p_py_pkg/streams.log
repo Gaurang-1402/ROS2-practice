@@ -1,0 +1,36 @@
+[0.721s] Invoking command in '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/p_py_pkg': PYTHONPATH=/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/p_py_pkg/prefix_override:/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/p_py_pkg/build
+[1.014s] running develop
+[1.014s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.015s]   warnings.warn(
+[1.016s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.016s]   warnings.warn(
+[1.082s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[1.083s]   warnings.warn(
+[1.083s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[1.083s]   warnings.warn(
+[1.083s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[1.084s]   warnings.warn(
+[1.252s] Invoked command in '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/p_py_pkg' returned '0': PYTHONPATH=/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/p_py_pkg/prefix_override:/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/p_py_pkg/build
+[1.253s] Invoking command in '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/p_py_pkg': PYTHONPATH=/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/p_py_pkg/prefix_override:/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/p_py_pkg build --build-base /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/p_py_pkg/build install --record /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/p_py_pkg/install.log --single-version-externally-managed
+[1.525s] running egg_info
+[1.526s] writing ../../build/p_py_pkg/p_py_pkg.egg-info/PKG-INFO
+[1.526s] writing dependency_links to ../../build/p_py_pkg/p_py_pkg.egg-info/dependency_links.txt
+[1.526s] writing entry points to ../../build/p_py_pkg/p_py_pkg.egg-info/entry_points.txt
+[1.527s] writing requirements to ../../build/p_py_pkg/p_py_pkg.egg-info/requires.txt
+[1.527s] writing top-level names to ../../build/p_py_pkg/p_py_pkg.egg-info/top_level.txt
+[1.528s] reading manifest file '../../build/p_py_pkg/p_py_pkg.egg-info/SOURCES.txt'
+[1.529s] writing manifest file '../../build/p_py_pkg/p_py_pkg.egg-info/SOURCES.txt'
+[1.530s] running build
+[1.530s] running build_py
+[1.531s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.531s]   warnings.warn(
+[1.531s] running install
+[1.532s] running install_lib
+[1.532s] running install_data
+[1.532s] running install_egg_info
+[1.534s] removing '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg/lib/python3.10/site-packages/p_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.535s] Copying ../../build/p_py_pkg/p_py_pkg.egg-info to /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg/lib/python3.10/site-packages/p_py_pkg-0.0.0-py3.10.egg-info
+[1.535s] running install_scripts
+[1.560s] Installing my_publisher = p_py_pkg.publisher_2:mainmy_subscriber script to /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg/lib/p_py_pkg
+[1.560s] writing list of installed files to '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/p_py_pkg/install.log'
+[1.590s] Invoked command in '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/p_py_pkg' returned '0': PYTHONPATH=/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/p_py_pkg/prefix_override:/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/p_py_pkg build --build-base /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/p_py_pkg/build install --record /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/p_py_pkg/install.log --single-version-externally-managed
