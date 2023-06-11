@@ -49,7 +49,7 @@ conda deactivate # TODO uncomment if you don't want want conda and are not using
 
 ```
 
-Note: you added conda deactivate in the .bashrc
+Note: you added ```conda deactivate``` in the .bashrc
 
 To activate conda run
 
