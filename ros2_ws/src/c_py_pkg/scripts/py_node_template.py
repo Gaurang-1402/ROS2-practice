@@ -11,9 +11,11 @@ class MyCustomNode(Node): # MODIFY NAME
 def main(args=None):
     rclpy.init(args=args)
     node = MyCustomNode() # MODIFY NAME
-    rclpy.spin(node)
-    rclpy.shutdown()
- 
+    try:
+        rclpy.spin(node) # keeps calling the callback
+    except KeyboardInterrupt:
+        node.destroy_node()
+        rclpy.shutdown()
  
 if __name__ == "__main__":
     main()
