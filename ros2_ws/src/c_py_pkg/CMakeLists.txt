@@ -27,6 +27,7 @@ install(PROGRAMS
   scripts/add_two_ints_server.py
   scripts/add_two_ints_client_no_oop.py
   scripts/add_two_ints_client_oop.py
+  scripts/reset_counter_client.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

@@ -7,6 +7,7 @@ scripts/number_counter.py
 scripts/number_publisher.py
 scripts/publisher.py
 scripts/py_node_template.py
+scripts/reset_counter_client.py
 scripts/robot_news_station.py
 scripts/smartphone.py
 scripts/subscriber.py

@@ -7,9 +7,9 @@ from functools import partial
 class AddTwoClientsNode(Node): # MODIFY NAME
     def __init__(self):
         super().__init__("add_two_ints_client_oop") # MODIFY NAME
-        self.call_add_two_ints_server(6, 7)
+        self.call_add_two_ints_client(6, 7)
  
-    def call_add_two_ints_server(self, a, b):
+    def call_add_two_ints_client(self, a, b):
         client = self.create_client(AddTwoInts, "add_two_ints")
         while not client.wait_for_service(1):
             self.get_logger().warn("Waiting for Server Add Two Ints")
