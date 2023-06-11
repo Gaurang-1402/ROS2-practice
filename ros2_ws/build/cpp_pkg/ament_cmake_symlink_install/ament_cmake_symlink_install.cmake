@@ -310,7 +310,7 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install("TARGETS" "cpp_node" "robot_news_station" "smartphone" "DESTINATION" "lib/cpp_pkg")
+# install("TARGETS" "cpp_node" "robot_news_station" "smartphone" "add_two_ints_server" "add_two_ints_client" "add_two_ints_client_no_oop" "DESTINATION" "lib/cpp_pkg")
 include("/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/cpp_pkg/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(FILES "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/cpp_pkg/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/cpp_pkg" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

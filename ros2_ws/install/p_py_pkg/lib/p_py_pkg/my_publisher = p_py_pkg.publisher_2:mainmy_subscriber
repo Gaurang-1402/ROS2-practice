@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-# EASY-INSTALL-ENTRY-SCRIPT: 'p-py-pkg==0.0.0','console_scripts','my_publisher = p_py_pkg.publisher_2:mainmy_subscriber'
+# EASY-INSTALL-ENTRY-SCRIPT: 'p-py-pkg','console_scripts','my_publisher = p_py_pkg.publisher_2:mainmy_subscriber'
 import re
 import sys
 
 # for compatibility with easy_install; see #2198
-__requires__ = 'p-py-pkg==0.0.0'
+__requires__ = 'p-py-pkg'
 
 try:
     from importlib.metadata import distribution
@@ -30,4 +30,4 @@ globals().setdefault('load_entry_point', importlib_load_entry_point)
 
 if __name__ == '__main__':
     sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
-    sys.exit(load_entry_point('p-py-pkg==0.0.0', 'console_scripts', 'my_publisher = p_py_pkg.publisher_2:mainmy_subscriber')())
+    sys.exit(load_entry_point('p-py-pkg', 'console_scripts', 'my_publisher = p_py_pkg.publisher_2:mainmy_subscriber')())

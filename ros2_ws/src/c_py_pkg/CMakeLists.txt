@@ -22,6 +22,11 @@ install(PROGRAMS
   scripts/subscriber.py
   scripts/robot_news_station.py
   scripts/smartphone.py
+  scripts/number_publisher.py
+  scripts/number_counter.py
+  scripts/add_two_ints_server.py
+  scripts/add_two_ints_client_no_oop.py
+  scripts/add_two_ints_client_oop.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

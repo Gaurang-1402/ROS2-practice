@@ -1,0 +1,266 @@
+[0.409s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.409s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=24, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f201ab1e650>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f201b4a5f30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f201b4a5f30>>)
+[0.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.438s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/c_py_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/c_py_pkg) by extension 'ignore'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/c_py_pkg) by extension 'ignore_ament_install'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/c_py_pkg) by extensions ['colcon_pkg']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/c_py_pkg) by extension 'colcon_pkg'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/c_py_pkg) by extensions ['colcon_meta']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/c_py_pkg) by extension 'colcon_meta'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/c_py_pkg) by extensions ['ros']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/c_py_pkg) by extension 'ros'
+[0.458s] DEBUG:colcon.colcon_core.package_identification:Package 'src/c_py_pkg' with type 'ros.ament_cmake' and name 'c_py_pkg'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pkg) by extension 'ignore'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pkg) by extension 'ignore_ament_install'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pkg) by extensions ['colcon_pkg']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pkg) by extension 'colcon_pkg'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pkg) by extensions ['colcon_meta']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pkg) by extension 'colcon_meta'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pkg) by extensions ['ros']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pkg) by extension 'ros'
+[0.460s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_pkg' with type 'ros.ament_cmake' and name 'cpp_pkg'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/p_py_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/p_py_pkg) by extension 'ignore'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/p_py_pkg) by extension 'ignore_ament_install'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/p_py_pkg) by extensions ['colcon_pkg']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/p_py_pkg) by extension 'colcon_pkg'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/p_py_pkg) by extensions ['colcon_meta']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/p_py_pkg) by extension 'colcon_meta'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/p_py_pkg) by extensions ['ros']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/p_py_pkg) by extension 'ros'
+[0.461s] DEBUG:colcon.colcon_core.package_identification:Package 'src/p_py_pkg' with type 'ros.ament_python' and name 'p_py_pkg'
+[0.461s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.461s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.461s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.462s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.462s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.497s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.497s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.501s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install
+[0.504s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.506s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'c_py_pkg' build argument 'cmake_args' from command line to 'None'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'c_py_pkg' build argument 'cmake_target' from command line to 'None'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'c_py_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'c_py_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'c_py_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'c_py_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'c_py_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'c_py_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'c_py_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.568s] DEBUG:colcon.colcon_core.verb:Building package 'c_py_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/c_py_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg', 'merge_install': False, 'path': '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/c_py_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'cpp_pkg' build argument 'cmake_args' from command line to 'None'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'cpp_pkg' build argument 'cmake_target' from command line to 'None'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'cpp_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'cpp_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'cpp_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'cpp_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'cpp_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'cpp_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.571s] Level 5:colcon.colcon_core.verb:set package 'cpp_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.571s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/cpp_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg', 'merge_install': False, 'path': '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/cpp_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'p_py_pkg' build argument 'cmake_args' from command line to 'None'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'p_py_pkg' build argument 'cmake_target' from command line to 'None'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'p_py_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'p_py_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'p_py_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'p_py_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'p_py_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'p_py_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'p_py_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.573s] DEBUG:colcon.colcon_core.verb:Building package 'p_py_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/p_py_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg', 'merge_install': False, 'path': '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/p_py_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.575s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.584s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.585s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/c_py_pkg' with build type 'ament_cmake'
+[0.585s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/c_py_pkg'
+[0.592s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.593s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.593s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.600s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/cpp_pkg' with build type 'ament_cmake'
+[0.600s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/cpp_pkg'
+[0.604s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.604s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.611s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/p_py_pkg' with build type 'ament_python'
+[0.611s] Level 1:colcon.colcon_core.shell:create_environment_hook('p_py_pkg', 'ament_prefix_path')
+[0.615s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg/share/p_py_pkg/hook/ament_prefix_path.ps1'
+[0.616s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg/share/p_py_pkg/hook/ament_prefix_path.dsv'
+[0.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg/share/p_py_pkg/hook/ament_prefix_path.sh'
+[0.621s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.621s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.635s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/c_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg:/opt/ros/humble /usr/bin/cmake /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/c_py_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg
+[0.639s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg:/opt/ros/humble /usr/bin/cmake /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/cpp_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg
+[0.933s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/p_py_pkg'
+[0.936s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.937s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.317s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg/share/ament_index/resource_index/packages/p_py_pkg
+[1.317s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg/share/p_py_pkg/package.xml
+[1.317s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg/lib/p_py_pkg/my_publisher = p_py_pkg.publisher_2:mainmy_subscriber
+[1.320s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/p_py_pkg': PYTHONPATH=/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/p_py_pkg/prefix_override:/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/p_py_pkg/build --no-deps install_data
+[1.522s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/c_py_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg:/opt/ros/humble /usr/bin/cmake /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/c_py_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg
+[1.526s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/c_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/c_py_pkg -- -j24 -l24
+[1.620s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg:/opt/ros/humble /usr/bin/cmake /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/cpp_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg
+[1.620s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/cpp_pkg -- -j24 -l24
+[1.690s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/cpp_pkg -- -j24 -l24
+[1.730s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/cpp_pkg
+[1.749s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pkg)
+[1.750s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/cpp_pkg
+[1.757s] Level 1:colcon.colcon_core.environment:checking '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg' for CMake module files
+[1.758s] Level 1:colcon.colcon_core.environment:checking '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg' for CMake config files
+[1.758s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pkg', 'cmake_prefix_path')
+[1.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/cpp_pkg/hook/cmake_prefix_path.ps1'
+[1.762s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/cpp_pkg/hook/cmake_prefix_path.dsv'
+[1.763s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/cpp_pkg/hook/cmake_prefix_path.sh'
+[1.763s] Level 1:colcon.colcon_core.environment:checking '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/lib'
+[1.763s] Level 1:colcon.colcon_core.environment:checking '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/bin'
+[1.764s] Level 1:colcon.colcon_core.environment:checking '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/lib/pkgconfig/cpp_pkg.pc'
+[1.764s] Level 1:colcon.colcon_core.environment:checking '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/lib/python3.10/site-packages'
+[1.764s] Level 1:colcon.colcon_core.environment:checking '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/bin'
+[1.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/cpp_pkg/package.ps1'
+[1.769s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/cpp_pkg/package.dsv'
+[1.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/cpp_pkg/package.sh'
+[1.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/cpp_pkg/package.bash'
+[1.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/cpp_pkg/package.zsh'
+[1.771s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/colcon-core/packages/cpp_pkg)
+[1.805s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pkg)
+[1.810s] Level 1:colcon.colcon_core.environment:checking '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg' for CMake module files
+[1.812s] Level 1:colcon.colcon_core.environment:checking '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg' for CMake config files
+[1.812s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pkg', 'cmake_prefix_path')
+[1.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/cpp_pkg/hook/cmake_prefix_path.ps1'
+[1.817s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/cpp_pkg/hook/cmake_prefix_path.dsv'
+[1.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/cpp_pkg/hook/cmake_prefix_path.sh'
+[1.820s] Level 1:colcon.colcon_core.environment:checking '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/lib'
+[1.820s] Level 1:colcon.colcon_core.environment:checking '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/bin'
+[1.820s] Level 1:colcon.colcon_core.environment:checking '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/lib/pkgconfig/cpp_pkg.pc'
+[1.820s] Level 1:colcon.colcon_core.environment:checking '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/lib/python3.10/site-packages'
+[1.820s] Level 1:colcon.colcon_core.environment:checking '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/bin'
+[1.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/cpp_pkg/package.ps1'
+[1.825s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/cpp_pkg/package.dsv'
+[1.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/cpp_pkg/package.sh'
+[1.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/cpp_pkg/package.bash'
+[1.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/cpp_pkg/package.zsh'
+[1.826s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/colcon-core/packages/cpp_pkg)
+[1.845s] Level 1:colcon.colcon_core.shell:create_environment_hook('p_py_pkg', 'pythonpath_develop')
+[1.849s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/p_py_pkg/share/p_py_pkg/hook/pythonpath_develop.ps1'
+[1.850s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/p_py_pkg' returned '0': PYTHONPATH=/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/p_py_pkg/prefix_override:/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/p_py_pkg/build --no-deps install_data
+[1.851s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/p_py_pkg/share/p_py_pkg/hook/pythonpath_develop.dsv'
+[1.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/p_py_pkg/share/p_py_pkg/hook/pythonpath_develop.sh'
+[1.856s] Level 1:colcon.colcon_core.environment:checking '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg' for CMake module files
+[1.857s] Level 1:colcon.colcon_core.environment:checking '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg' for CMake config files
+[1.857s] Level 1:colcon.colcon_core.environment:checking '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg/lib'
+[1.857s] Level 1:colcon.colcon_core.environment:checking '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg/bin'
+[1.857s] Level 1:colcon.colcon_core.environment:checking '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg/lib/pkgconfig/p_py_pkg.pc'
+[1.858s] Level 1:colcon.colcon_core.environment:checking '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg/lib/python3.10/site-packages'
+[1.858s] Level 1:colcon.colcon_core.shell:create_environment_hook('p_py_pkg', 'pythonpath')
+[1.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg/share/p_py_pkg/hook/pythonpath.ps1'
+[1.862s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg/share/p_py_pkg/hook/pythonpath.dsv'
+[1.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg/share/p_py_pkg/hook/pythonpath.sh'
+[1.863s] Level 1:colcon.colcon_core.environment:checking '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg/bin'
+[1.863s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(p_py_pkg)
+[1.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg/share/p_py_pkg/package.ps1'
+[1.868s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg/share/p_py_pkg/package.dsv'
+[1.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg/share/p_py_pkg/package.sh'
+[1.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg/share/p_py_pkg/package.bash'
+[1.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg/share/p_py_pkg/package.zsh'
+[1.870s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg/share/colcon-core/packages/p_py_pkg)
+[1.910s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/c_py_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/c_py_pkg -- -j24 -l24
+[1.930s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/c_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/c_py_pkg
+[1.999s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(c_py_pkg)
+[2.004s] Level 1:colcon.colcon_core.environment:checking '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg' for CMake module files
+[2.005s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/c_py_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/c_py_pkg
+[2.005s] Level 1:colcon.colcon_core.environment:checking '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg' for CMake config files
+[2.005s] Level 1:colcon.colcon_core.shell:create_environment_hook('c_py_pkg', 'cmake_prefix_path')
+[2.009s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/c_py_pkg/hook/cmake_prefix_path.ps1'
+[2.009s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/c_py_pkg/hook/cmake_prefix_path.dsv'
+[2.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/c_py_pkg/hook/cmake_prefix_path.sh'
+[2.010s] Level 1:colcon.colcon_core.environment:checking '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/lib'
+[2.010s] Level 1:colcon.colcon_core.environment:checking '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/bin'
+[2.010s] Level 1:colcon.colcon_core.environment:checking '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/lib/pkgconfig/c_py_pkg.pc'
+[2.011s] Level 1:colcon.colcon_core.environment:checking '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/lib/python3.10/site-packages'
+[2.011s] Level 1:colcon.colcon_core.environment:checking '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/bin'
+[2.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/c_py_pkg/package.ps1'
+[2.015s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/c_py_pkg/package.dsv'
+[2.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/c_py_pkg/package.sh'
+[2.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/c_py_pkg/package.bash'
+[2.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/c_py_pkg/package.zsh'
+[2.017s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/colcon-core/packages/c_py_pkg)
+[2.042s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(c_py_pkg)
+[2.047s] Level 1:colcon.colcon_core.environment:checking '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg' for CMake module files
+[2.048s] Level 1:colcon.colcon_core.environment:checking '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg' for CMake config files
+[2.048s] Level 1:colcon.colcon_core.shell:create_environment_hook('c_py_pkg', 'cmake_prefix_path')
+[2.051s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/c_py_pkg/hook/cmake_prefix_path.ps1'
+[2.052s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/c_py_pkg/hook/cmake_prefix_path.dsv'
+[2.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/c_py_pkg/hook/cmake_prefix_path.sh'
+[2.053s] Level 1:colcon.colcon_core.environment:checking '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/lib'
+[2.053s] Level 1:colcon.colcon_core.environment:checking '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/bin'
+[2.053s] Level 1:colcon.colcon_core.environment:checking '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/lib/pkgconfig/c_py_pkg.pc'
+[2.053s] Level 1:colcon.colcon_core.environment:checking '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/lib/python3.10/site-packages'
+[2.053s] Level 1:colcon.colcon_core.environment:checking '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/bin'
+[2.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/c_py_pkg/package.ps1'
+[2.057s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/c_py_pkg/package.dsv'
+[2.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/c_py_pkg/package.sh'
+[2.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/c_py_pkg/package.bash'
+[2.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/c_py_pkg/package.zsh'
+[2.059s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/share/colcon-core/packages/c_py_pkg)
+[2.059s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.059s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.059s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.060s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.069s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.069s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.069s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.088s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.092s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/local_setup.ps1'
+[2.093s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/_local_setup_util_ps1.py'
+[2.094s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/setup.ps1'
+[2.096s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/local_setup.sh'
+[2.097s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/_local_setup_util_sh.py'
+[2.097s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/setup.sh'
+[2.099s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/local_setup.bash'
+[2.100s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/setup.bash'
+[2.102s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/local_setup.zsh'
+[2.102s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/setup.zsh'

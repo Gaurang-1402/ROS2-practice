@@ -1,0 +1,67 @@
+[0.015s] Invoking command in '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg:/opt/ros/humble /usr/bin/cmake /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg
+[0.022s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.110s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.115s] -- Found rclcpp: 16.0.2 (/opt/ros/humble/share/rclcpp/cmake)
+[0.137s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.138s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.142s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.148s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.159s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.195s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.195s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.266s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.362s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[0.444s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.489s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.489s] -- Configured cppcheck include dirs: 
+[0.489s] -- Configured cppcheck exclude dirs and/or files: 
+[0.489s] -- Added test 'lint_cmake' to check CMake code style
+[0.490s] -- Added test 'uncrustify' to check C / C++ code style
+[0.490s] -- Configured uncrustify additional arguments: 
+[0.490s] -- Added test 'xmllint' to check XML markup files
+[0.491s] -- Configuring done
+[0.503s] -- Generating done
+[0.504s] -- Build files have been written to: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/cpp_pkg
+[0.509s] Invoked command in '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg:/opt/ros/humble /usr/bin/cmake /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg
+[0.511s] Invoking command in '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/cpp_pkg -- -j24 -l24
+[0.532s] [35m[1mConsolidate compiler generated dependencies of target smartphone[0m
+[0.532s] [35m[1mConsolidate compiler generated dependencies of target robot_news_station[0m
+[0.532s] [35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[0.536s] [  8%] [32mBuilding CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o[0m
+[0.537s] [ 16%] [32mBuilding CXX object CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o[0m
+[0.538s] [ 25%] [32mBuilding CXX object CMakeFiles/add_two_ints_client_no_oop.dir/src/add_two_ints_client_no_oop.cpp.o[0m
+[0.541s] [ 75%] Built target smartphone
+[0.541s] [ 75%] Built target robot_news_station
+[0.541s] [ 75%] Built target cpp_node
+[2.614s] [ 83%] [32m[1mLinking CXX executable add_two_ints_server[0m
+[2.643s] [ 91%] [32m[1mLinking CXX executable add_two_ints_client_no_oop[0m
+[2.661s] [100%] [32m[1mLinking CXX executable add_two_ints_client[0m
+[2.717s] [100%] Built target add_two_ints_server
+[2.733s] [100%] Built target add_two_ints_client_no_oop
+[2.752s] [100%] Built target add_two_ints_client
+[2.757s] Invoked command in '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/cpp_pkg -- -j24 -l24
+[2.781s] Invoking command in '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/cpp_pkg
+[2.789s] -- Install configuration: ""
+[2.790s] -- Execute custom install script
+[2.790s] -- Up-to-date symlink: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/lib/cpp_pkg/cpp_node
+[2.790s] -- Up-to-date symlink: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/lib/cpp_pkg/robot_news_station
+[2.791s] -- Up-to-date symlink: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/lib/cpp_pkg/smartphone
+[2.791s] -- Symlinking: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/lib/cpp_pkg/add_two_ints_server
+[2.800s] -- Symlinking: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/lib/cpp_pkg/add_two_ints_client
+[2.808s] -- Symlinking: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/lib/cpp_pkg/add_two_ints_client_no_oop
+[2.812s] -- Up-to-date symlink: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_pkg
+[2.812s] -- Up-to-date symlink: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_pkg
+[2.812s] -- Up-to-date symlink: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/cpp_pkg/environment/ament_prefix_path.sh
+[2.812s] -- Up-to-date symlink: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/cpp_pkg/environment/ament_prefix_path.dsv
+[2.813s] -- Up-to-date symlink: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/cpp_pkg/environment/path.sh
+[2.813s] -- Up-to-date symlink: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/cpp_pkg/environment/path.dsv
+[2.813s] -- Up-to-date symlink: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/cpp_pkg/local_setup.bash
+[2.813s] -- Up-to-date symlink: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/cpp_pkg/local_setup.sh
+[2.813s] -- Up-to-date symlink: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/cpp_pkg/local_setup.zsh
+[2.813s] -- Up-to-date symlink: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/cpp_pkg/local_setup.dsv
+[2.813s] -- Symlinking: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/cpp_pkg/package.dsv
+[2.817s] -- Up-to-date symlink: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/ament_index/resource_index/packages/cpp_pkg
+[2.817s] -- Up-to-date symlink: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/cpp_pkg/cmake/cpp_pkgConfig.cmake
+[2.817s] -- Up-to-date symlink: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/cpp_pkg/cmake/cpp_pkgConfig-version.cmake
+[2.817s] -- Up-to-date symlink: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/cpp_pkg/package.xml
+[2.821s] Invoked command in '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/cpp_pkg
