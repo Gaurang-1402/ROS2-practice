@@ -1,0 +1,8 @@
+source;share/interfacesclear/hook/cmake_prefix_path.ps1
+source;share/interfacesclear/hook/cmake_prefix_path.dsv
+source;share/interfacesclear/hook/cmake_prefix_path.sh
+source;share/interfacesclear/local_setup.bash
+source;share/interfacesclear/local_setup.dsv
+source;share/interfacesclear/local_setup.ps1
+source;share/interfacesclear/local_setup.sh
+source;share/interfacesclear/local_setup.zsh

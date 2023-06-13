@@ -1,0 +1,36 @@
+[0.023s] Invoking command in '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/my_py_pkg:/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg:/opt/ros/humble /usr/bin/cmake /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/interfaces
+[0.080s] -- The C compiler identification is GNU 11.3.0
+[0.133s] -- The CXX compiler identification is GNU 11.3.0
+[0.141s] -- Detecting C compiler ABI info
+[0.182s] -- Detecting C compiler ABI info - done
+[0.191s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.191s] -- Detecting C compile features
+[0.191s] -- Detecting C compile features - done
+[0.193s] -- Detecting CXX compiler ABI info
+[0.247s] -- Detecting CXX compiler ABI info - done
+[0.255s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.255s] -- Detecting CXX compile features
+[0.256s] -- Detecting CXX compile features - done
+[0.258s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.382s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.425s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.448s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[0.448s]   By not providing "Findrosidl_default_parameters.cmake" in CMAKE_MODULE_PATH
+[0.448s]   this project has asked CMake to find a package configuration file provided
+[0.448s]   by "rosidl_default_parameters", but CMake did not find one.
+[0.448s] 
+[0.448s]   Could not find a package configuration file provided by
+[0.448s]   "rosidl_default_parameters" with any of the following names:
+[0.448s] 
+[0.448s]     rosidl_default_parametersConfig.cmake
+[0.448s]     rosidl_default_parameters-config.cmake
+[0.448s] 
+[0.449s]   Add the installation prefix of "rosidl_default_parameters" to
+[0.449s]   CMAKE_PREFIX_PATH or set "rosidl_default_parameters_DIR" to a directory
+[0.449s]   containing one of the above files.  If "rosidl_default_parameters" provides
+[0.449s]   a separate development package or SDK, be sure it has been installed.
+[0.449s] 
+[0.449s] [0m
+[0.449s] -- Configuring incomplete, errors occurred!
+[0.449s] See also "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/CMakeFiles/CMakeOutput.log".
+[0.451s] Invoked command in '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/my_py_pkg:/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg:/opt/ros/humble /usr/bin/cmake /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/interfaces

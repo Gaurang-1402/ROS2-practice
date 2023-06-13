@@ -1,0 +1,15 @@
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/interfacesclear/share/ament_index/resource_index/package_run_dependencies/interfacesclear
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/interfacesclear/share/ament_index/resource_index/parent_prefix_path/interfacesclear
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/interfacesclear/share/interfacesclear/environment/ament_prefix_path.sh
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/interfacesclear/share/interfacesclear/environment/ament_prefix_path.dsv
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/interfacesclear/share/interfacesclear/environment/path.sh
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/interfacesclear/share/interfacesclear/environment/path.dsv
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/interfacesclear/share/interfacesclear/local_setup.bash
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/interfacesclear/share/interfacesclear/local_setup.sh
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/interfacesclear/share/interfacesclear/local_setup.zsh
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/interfacesclear/share/interfacesclear/local_setup.dsv
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/interfacesclear/share/interfacesclear/package.dsv
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/interfacesclear/share/ament_index/resource_index/packages/interfacesclear
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/interfacesclear/share/interfacesclear/cmake/interfacesclearConfig.cmake
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/interfacesclear/share/interfacesclear/cmake/interfacesclearConfig-version.cmake
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/interfacesclear/share/interfacesclear/package.xml

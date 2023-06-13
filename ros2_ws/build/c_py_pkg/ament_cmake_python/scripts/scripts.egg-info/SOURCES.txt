@@ -3,6 +3,7 @@ scripts/__init__.py
 scripts/add_two_ints_client_no_oop.py
 scripts/add_two_ints_client_oop.py
 scripts/add_two_ints_server.py
+scripts/hw_status_publisher.py
 scripts/number_counter.py
 scripts/number_publisher.py
 scripts/publisher.py

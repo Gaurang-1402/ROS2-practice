@@ -1,0 +1,4 @@
+source;share/interfacesclear/local_setup.bash
+source;share/interfacesclear/local_setup.dsv
+source;share/interfacesclear/local_setup.sh
+source;share/interfacesclear/local_setup.zsh

@@ -1,0 +1,53 @@
+[01m[K/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/cpp_pkg/src/hw_status_publisher.cpp:27:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_robot_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+   27 |     rclcpp::Publisher<[01;31m[Kmy_robot_interfaces[m[K::msg::HardwareStatus>::SharedPtr pub_;
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                       [32m[Krcl_interfaces[m[K
+[01m[K/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/cpp_pkg/src/hw_status_publisher.cpp:27:63:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   27 |     rclcpp::Publisher<my_robot_interfaces::msg::HardwareStatus[01;31m[K>[m[K::SharedPtr pub_;
+      |                                                               [01;31m[K^[m[K
+[01m[K/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/cpp_pkg/src/hw_status_publisher.cpp:27:66:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   27 |     rclcpp::Publisher<my_robot_interfaces::msg::HardwareStatus>::[01;31m[KSharedPtr[m[K pub_;
+      |                                                                  [01;31m[K^~~~~~~~~[m[K
+      |                                                                           [32m[K;[m[K
+[01m[K/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/cpp_pkg/src/hw_status_publisher.cpp:27:76:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_[m[K’ does not name a type
+   27 |     rclcpp::Publisher<my_robot_interfaces::msg::HardwareStatus>::SharedPtr [01;31m[Kpub_[m[K;
+      |                                                                            [01;31m[K^~~~[m[K
+[01m[K/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/cpp_pkg/src/hw_status_publisher.cpp:[m[K In constructor ‘[01m[KHardwareStatusPublisher::HardwareStatusPublisher()[m[K’:
+[01m[K/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/cpp_pkg/src/hw_status_publisher.cpp:9:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_[m[K’ was not declared in this scope
+    9 |         [01;31m[Kpub_[m[K = this->create_publisher<my_robot_interfaces::msg::HardwareStatus>(
+      |         [01;31m[K^~~~[m[K
+[01m[K/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/cpp_pkg/src/hw_status_publisher.cpp:9:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_robot_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+    9 |         pub_ = this->create_publisher<[01;31m[Kmy_robot_interfaces[m[K::msg::HardwareStatus>(
+      |                                       [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                                       [32m[Krcl_interfaces[m[K
+[01m[K/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/cpp_pkg/src/hw_status_publisher.cpp:9:22:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+    9 |         pub_ = this->[01;31m[Kcreate_publisher<my_robot_interfaces::msg::HardwareStatus>[m[K(
+      |                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/cpp_pkg/src/hw_status_publisher.cpp:9:80:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KHardwareStatusPublisher::create_publisher<<expression error> >(const char [16], int)[m[K’
+    9 |         pub_ = [01;31m[Kthis->create_publisher<my_robot_interfaces::msg::HardwareStatus>([m[K
+      |                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   10 | [01;31m[K            "hardware_status", 10)[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~[m[K                                              
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/cpp_pkg/src/hw_status_publisher.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  195 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/cpp_pkg/src/hw_status_publisher.cpp:9:80:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    9 |         pub_ = [01;31m[Kthis->create_publisher<my_robot_interfaces::msg::HardwareStatus>([m[K
+      |                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   10 | [01;31m[K            "hardware_status", 10)[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~[m[K                                              
+[01m[K/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/cpp_pkg/src/hw_status_publisher.cpp:[m[K In member function ‘[01m[Kvoid HardwareStatusPublisher::publishHardwareStatus()[m[K’:
+[01m[K/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/cpp_pkg/src/hw_status_publisher.cpp:20:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_robot_interfaces[m[K’ has not been declared
+   20 |         auto msg = [01;31m[Kmy_robot_interfaces[m[K::msg::HardwareStatus();
+      |                    [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/cpp_pkg/src/hw_status_publisher.cpp:24:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_[m[K’ was not declared in this scope
+   24 |         [01;31m[Kpub_[m[K->publish(msg);
+      |         [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/hardware_status_publisher.dir/build.make:76: CMakeFiles/hardware_status_publisher.dir/src/hw_status_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:305: CMakeFiles/hardware_status_publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

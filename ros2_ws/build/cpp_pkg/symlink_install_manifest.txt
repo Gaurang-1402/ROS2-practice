@@ -4,6 +4,7 @@
 /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/lib/cpp_pkg/add_two_ints_server
 /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/lib/cpp_pkg/add_two_ints_client
 /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/lib/cpp_pkg/add_two_ints_client_no_oop
+/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/lib/cpp_pkg/hardware_status_publisher
 /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_pkg
 /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_pkg
 /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg/share/cpp_pkg/environment/ament_prefix_path.sh

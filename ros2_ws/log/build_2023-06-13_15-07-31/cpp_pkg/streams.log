@@ -1,0 +1,14 @@
+[0.028s] Invoking command in '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/my_py_pkg:/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/cpp_pkg -- -j24 -l24
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target smartphone[0m
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_client[0m
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_client_no_oop[0m
+[0.052s] [35m[1mConsolidate compiler generated dependencies of target robot_news_station[0m
+[0.054s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_server[0m
+[0.064s] [ 66%] Built target add_two_ints_client_no_oop
+[0.064s] [ 66%] Built target add_two_ints_client
+[0.064s] [ 66%] Built target smartphone
+[0.064s] [ 66%] Built target cpp_node
+[0.065s] [ 83%] Built target add_two_ints_server
+[0.065s] [100%] Built target robot_news_station
+[0.204s] Invoked command in '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/my_py_pkg:/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/cpp_pkg -- -j24 -l24

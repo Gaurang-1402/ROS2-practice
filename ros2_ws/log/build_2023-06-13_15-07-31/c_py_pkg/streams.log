@@ -1,0 +1,9 @@
+[0.031s] Invoking command in '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/c_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/my_py_pkg:/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/c_py_pkg -- -j24 -l24
+[0.060s] Built target ament_cmake_python_symlink_scripts
+[0.240s] running egg_info
+[0.240s] writing scripts.egg-info/PKG-INFO
+[0.240s] writing dependency_links to scripts.egg-info/dependency_links.txt
+[0.240s] writing top-level names to scripts.egg-info/top_level.txt
+[0.242s] reading manifest file 'scripts.egg-info/SOURCES.txt'
+[0.242s] writing manifest file 'scripts.egg-info/SOURCES.txt'
+[0.259s] Built target ament_cmake_python_build_scripts_egg

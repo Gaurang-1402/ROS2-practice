@@ -1,0 +1,40 @@
+[0.352s] Invoking command in '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/my_py_pkg/prefix_override:/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/my_py_pkg/build --no-deps install_data
+[0.472s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.472s]   warnings.warn(
+[0.487s] running develop
+[0.497s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.497s]   warnings.warn(
+[0.498s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.498s]   warnings.warn(
+[0.538s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[0.538s]   warnings.warn(
+[0.538s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[0.538s]   warnings.warn(
+[0.539s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[0.539s]   warnings.warn(
+[0.596s] running egg_info
+[0.596s] creating my_py_pkg.egg-info
+[0.596s] writing my_py_pkg.egg-info/PKG-INFO
+[0.596s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[0.596s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[0.596s] writing requirements to my_py_pkg.egg-info/requires.txt
+[0.596s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[0.596s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.597s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.597s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.598s] running build_ext
+[0.598s] Creating /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[0.599s] Installing number_counter script to /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.599s] Installing number_publisher script to /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.599s] Installing py_node script to /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.599s] Installing robot_news_station script to /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.599s] Installing smartphone script to /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.599s] 
+[0.599s] Installed /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/my_py_pkg
+[0.599s] running install_data
+[0.599s] creating /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/my_py_pkg/share/ament_index
+[0.599s] creating /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/my_py_pkg/share/ament_index/resource_index
+[0.599s] creating /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[0.599s] copying resource/my_py_pkg -> /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[0.599s] copying package.xml -> /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[0.617s] Invoked command in '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/my_py_pkg/prefix_override:/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/my_py_pkg/build --no-deps install_data

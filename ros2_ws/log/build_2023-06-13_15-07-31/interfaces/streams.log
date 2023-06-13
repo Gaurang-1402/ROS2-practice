@@ -1,0 +1,23 @@
+[0.020s] Invoking command in '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/my_py_pkg:/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg:/opt/ros/humble /usr/bin/cmake /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/interfaces
+[0.027s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.126s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.135s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[0.135s]   By not providing "Findrosidl_default_parameters.cmake" in CMAKE_MODULE_PATH
+[0.135s]   this project has asked CMake to find a package configuration file provided
+[0.136s]   by "rosidl_default_parameters", but CMake did not find one.
+[0.136s] 
+[0.136s]   Could not find a package configuration file provided by
+[0.136s]   "rosidl_default_parameters" with any of the following names:
+[0.136s] 
+[0.136s]     rosidl_default_parametersConfig.cmake
+[0.136s]     rosidl_default_parameters-config.cmake
+[0.136s] 
+[0.136s]   Add the installation prefix of "rosidl_default_parameters" to
+[0.136s]   CMAKE_PREFIX_PATH or set "rosidl_default_parameters_DIR" to a directory
+[0.136s]   containing one of the above files.  If "rosidl_default_parameters" provides
+[0.136s]   a separate development package or SDK, be sure it has been installed.
+[0.136s] 
+[0.136s] [0m
+[0.136s] -- Configuring incomplete, errors occurred!
+[0.136s] See also "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/CMakeFiles/CMakeOutput.log".
+[0.196s] Invoked command in '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/my_py_pkg:/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg:/opt/ros/humble /usr/bin/cmake /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/interfaces

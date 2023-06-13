@@ -1,0 +1,24 @@
+[0.026s] Invoking command in '/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/my_py_pkg:/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg:/opt/ros/humble /usr/bin/cmake /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/cpp_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/cpp_pkg
+[0.032s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.129s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.134s] -- Found rclcpp: 16.0.2 (/opt/ros/humble/share/rclcpp/cmake)
+[0.157s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.158s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.162s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.169s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.180s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.223s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.224s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.302s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.412s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[0.502s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.556s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.556s] -- Configured cppcheck include dirs: 
+[0.556s] -- Configured cppcheck exclude dirs and/or files: 
+[0.556s] -- Added test 'lint_cmake' to check CMake code style
+[0.557s] -- Added test 'uncrustify' to check C / C++ code style
+[0.557s] -- Configured uncrustify additional arguments: 
+[0.557s] -- Added test 'xmllint' to check XML markup files
+[0.558s] -- Configuring done
+[0.573s] -- Generating done
+[0.574s] -- Build files have been written to: /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/cpp_pkg

@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:13 (find_package):
+  By not providing "Findrosidl_default_parameters.cmake" in CMAKE_MODULE_PATH
+  this project has asked CMake to find a package configuration file provided
+  by "rosidl_default_parameters", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "rosidl_default_parameters" with any of the following names:
+
+    rosidl_default_parametersConfig.cmake
+    rosidl_default_parameters-config.cmake
+
+  Add the installation prefix of "rosidl_default_parameters" to
+  CMAKE_PREFIX_PATH or set "rosidl_default_parameters_DIR" to a directory
+  containing one of the above files.  If "rosidl_default_parameters" provides
+  a separate development package or SDK, be sure it has been installed.
+
+[0m
