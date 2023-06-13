@@ -1,10 +1,14 @@
 file(REMOVE_RECURSE
   "CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/hardware_status__type_support.c.o"
   "CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/hardware_status__type_support.c.o.d"
+  "CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/compute_rectangle_area__type_support.c.o"
+  "CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/compute_rectangle_area__type_support.c.o.d"
   "libinterfaces__rosidl_typesupport_introspection_c.pdb"
   "libinterfaces__rosidl_typesupport_introspection_c.so"
   "rosidl_typesupport_introspection_c/interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h"
   "rosidl_typesupport_introspection_c/interfaces/msg/detail/hardware_status__type_support.c"
+  "rosidl_typesupport_introspection_c/interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/interfaces/srv/detail/compute_rectangle_area__type_support.c"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -17,6 +17,9 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_generator_py/interfaces/msg/__init__.py" "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_generator_py/interfaces/msg/_hardware_status.py" "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_generator_py/interfaces/msg/_hardware_status_s.c" "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_generator_py/interfaces/srv/__init__.py" "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_generator_py/interfaces/srv/_compute_rectangle_area.py" "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_generator_py/interfaces/srv/_compute_rectangle_area_s.c" "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

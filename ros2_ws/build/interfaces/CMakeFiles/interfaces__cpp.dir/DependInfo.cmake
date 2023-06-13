@@ -15,6 +15,10 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_generator_cpp/interfaces/msg/detail/hardware_status__builder.hpp" "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_generator_cpp/interfaces/msg/hardware_status.hpp"
   "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_generator_cpp/interfaces/msg/detail/hardware_status__struct.hpp" "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_generator_cpp/interfaces/msg/hardware_status.hpp"
   "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_generator_cpp/interfaces/msg/detail/hardware_status__traits.hpp" "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_generator_cpp/interfaces/msg/hardware_status.hpp"
+  "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_generator_cpp/interfaces/srv/compute_rectangle_area.hpp" "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_generator_cpp/interfaces/msg/hardware_status.hpp"
+  "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_generator_cpp/interfaces/srv/detail/compute_rectangle_area__builder.hpp" "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_generator_cpp/interfaces/msg/hardware_status.hpp"
+  "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_generator_cpp/interfaces/srv/detail/compute_rectangle_area__struct.hpp" "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_generator_cpp/interfaces/msg/hardware_status.hpp"
+  "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_generator_cpp/interfaces/srv/detail/compute_rectangle_area__traits.hpp" "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_generator_cpp/interfaces/msg/hardware_status.hpp"
   )
 
 

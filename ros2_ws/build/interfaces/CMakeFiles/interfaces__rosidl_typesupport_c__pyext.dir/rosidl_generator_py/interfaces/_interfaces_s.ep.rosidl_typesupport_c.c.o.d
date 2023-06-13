@@ -206,4 +206,7 @@ CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/inter
  /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_generator_c/interfaces/msg/detail/hardware_status__struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
- /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_generator_c/interfaces/msg/detail/hardware_status__functions.h
+ /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_generator_c/interfaces/msg/detail/hardware_status__functions.h \
+ /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_generator_c/interfaces/srv/detail/compute_rectangle_area__type_support.h \
+ /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_generator_c/interfaces/srv/detail/compute_rectangle_area__struct.h \
+ /home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_generator_c/interfaces/srv/detail/compute_rectangle_area__functions.h

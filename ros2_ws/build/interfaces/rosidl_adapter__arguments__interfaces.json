@@ -1,6 +1,7 @@
 {
   "package_name": "interfaces",
   "non_idl_tuples": [
-    "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/interfaces:msg/HardwareStatus.msg"
+    "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/interfaces:msg/HardwareStatus.msg",
+    "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/interfaces:srv/ComputeRectangleArea.srv"
   ]
 }

@@ -5,6 +5,9 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/interfaces/msg/__init__.py"
   "../rosidl_generator_py/interfaces/msg/_hardware_status.py"
   "../rosidl_generator_py/interfaces/msg/_hardware_status_s.c"
+  "../rosidl_generator_py/interfaces/srv/__init__.py"
+  "../rosidl_generator_py/interfaces/srv/_compute_rectangle_area.py"
+  "../rosidl_generator_py/interfaces/srv/_compute_rectangle_area_s.c"
   "CMakeFiles/interfaces__py"
 )
 
