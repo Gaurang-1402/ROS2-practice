@@ -1,0 +1,2 @@
+string led_status
+float64 battery_level

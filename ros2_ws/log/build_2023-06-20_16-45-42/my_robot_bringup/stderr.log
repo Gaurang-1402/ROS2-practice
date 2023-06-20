@@ -1,0 +1,6 @@
+[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/symlink_install/install.cmake:43 (_install):
+  _install does not recognize sub-command PARENT_DIRECTORY
+Call Stack (most recent call first):
+  CMakeLists.txt:11 (install)
+
+[0m

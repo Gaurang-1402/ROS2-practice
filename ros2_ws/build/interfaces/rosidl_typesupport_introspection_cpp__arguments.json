@@ -4,7 +4,9 @@
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource",
   "idl_tuples": [
     "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_adapter/interfaces:msg/HardwareStatus.idl",
-    "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_adapter/interfaces:srv/ComputeRectangleArea.idl"
+    "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_adapter/interfaces:msg/LedStatus.idl",
+    "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_adapter/interfaces:srv/ComputeRectangleArea.idl",
+    "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_adapter/interfaces:srv/SetLed.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp",
@@ -16,6 +18,8 @@
     "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em",
     "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_adapter/interfaces/msg/HardwareStatus.idl",
-    "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_adapter/interfaces/srv/ComputeRectangleArea.idl"
+    "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_adapter/interfaces/msg/LedStatus.idl",
+    "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_adapter/interfaces/srv/ComputeRectangleArea.idl",
+    "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_adapter/interfaces/srv/SetLed.idl"
   ]
 }

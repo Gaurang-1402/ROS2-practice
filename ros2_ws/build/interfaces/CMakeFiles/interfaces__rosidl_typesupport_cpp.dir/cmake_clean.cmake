@@ -1,12 +1,18 @@
 file(REMOVE_RECURSE
   "CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/hardware_status__type_support.cpp.o"
   "CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/hardware_status__type_support.cpp.o.d"
+  "CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/led_status__type_support.cpp.o"
+  "CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/led_status__type_support.cpp.o.d"
   "CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/compute_rectangle_area__type_support.cpp.o"
   "CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/compute_rectangle_area__type_support.cpp.o.d"
+  "CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/set_led__type_support.cpp.o"
+  "CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/set_led__type_support.cpp.o.d"
   "libinterfaces__rosidl_typesupport_cpp.pdb"
   "libinterfaces__rosidl_typesupport_cpp.so"
   "rosidl_typesupport_cpp/interfaces/msg/hardware_status__type_support.cpp"
+  "rosidl_typesupport_cpp/interfaces/msg/led_status__type_support.cpp"
   "rosidl_typesupport_cpp/interfaces/srv/compute_rectangle_area__type_support.cpp"
+  "rosidl_typesupport_cpp/interfaces/srv/set_led__type_support.cpp"
 )
 
 # Per-language clean rules from dependency scanning.

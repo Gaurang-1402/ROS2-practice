@@ -29,6 +29,8 @@ install(PROGRAMS
   scripts/add_two_ints_client_oop.py
   scripts/reset_counter_client.py
   scripts/hw_status_publisher.py
+  scripts/battery.py
+  scripts/led_panel.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

@@ -5,9 +5,10 @@ from example_interfaces.msg import String
  
 class RobotNewsStationNode(Node):
     def __init__(self):
-        super().__init__("robot_news_station")
+        super().__init__("robot_news_station") # type: ignore
 
-        self.name_ = "Carr-E"
+        self.declare_parameter("robot_news_station_name", "Carr-E")
+        self.name_ = self.get_parameter("robot_news_station_name").value
         self.publisher_ = self.create_publisher(String, "robot_news", 10)
         self.timer = self.create_timer(0.5, self.publish_news)
 

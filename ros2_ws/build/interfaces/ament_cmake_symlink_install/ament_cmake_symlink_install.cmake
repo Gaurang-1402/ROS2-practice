@@ -361,11 +361,20 @@ include("/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/
 # install(FILES "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_adapter/interfaces/msg/HardwareStatus.idl" "DESTINATION" "share/interfaces/msg")
 ament_cmake_symlink_install_files("/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/interfaces" FILES "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_adapter/interfaces/msg/HardwareStatus.idl" "DESTINATION" "share/interfaces/msg")
 
+# install(FILES "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_adapter/interfaces/msg/LedStatus.idl" "DESTINATION" "share/interfaces/msg")
+ament_cmake_symlink_install_files("/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/interfaces" FILES "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_adapter/interfaces/msg/LedStatus.idl" "DESTINATION" "share/interfaces/msg")
+
 # install(FILES "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_adapter/interfaces/srv/ComputeRectangleArea.idl" "DESTINATION" "share/interfaces/srv")
 ament_cmake_symlink_install_files("/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/interfaces" FILES "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_adapter/interfaces/srv/ComputeRectangleArea.idl" "DESTINATION" "share/interfaces/srv")
 
+# install(FILES "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_adapter/interfaces/srv/SetLed.idl" "DESTINATION" "share/interfaces/srv")
+ament_cmake_symlink_install_files("/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/interfaces" FILES "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_adapter/interfaces/srv/SetLed.idl" "DESTINATION" "share/interfaces/srv")
+
 # install(FILES "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/interfaces/msg/HardwareStatus.msg" "DESTINATION" "share/interfaces/msg")
 ament_cmake_symlink_install_files("/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/interfaces" FILES "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/interfaces/msg/HardwareStatus.msg" "DESTINATION" "share/interfaces/msg")
+
+# install(FILES "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/interfaces/msg/LedStatus.msg" "DESTINATION" "share/interfaces/msg")
+ament_cmake_symlink_install_files("/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/interfaces" FILES "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/interfaces/msg/LedStatus.msg" "DESTINATION" "share/interfaces/msg")
 
 # install(FILES "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/interfaces/srv/ComputeRectangleArea.srv" "DESTINATION" "share/interfaces/srv")
 ament_cmake_symlink_install_files("/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/interfaces" FILES "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/interfaces/srv/ComputeRectangleArea.srv" "DESTINATION" "share/interfaces/srv")
@@ -375,6 +384,15 @@ ament_cmake_symlink_install_files("/home/chief-of-mischief/Desktop/ROS-learnings
 
 # install(FILES "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_cmake/srv/ComputeRectangleArea_Response.msg" "DESTINATION" "share/interfaces/srv")
 ament_cmake_symlink_install_files("/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/interfaces" FILES "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_cmake/srv/ComputeRectangleArea_Response.msg" "DESTINATION" "share/interfaces/srv")
+
+# install(FILES "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/interfaces/srv/SetLed.srv" "DESTINATION" "share/interfaces/srv")
+ament_cmake_symlink_install_files("/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/interfaces" FILES "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/interfaces/srv/SetLed.srv" "DESTINATION" "share/interfaces/srv")
+
+# install(FILES "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_cmake/srv/SetLed_Request.msg" "DESTINATION" "share/interfaces/srv")
+ament_cmake_symlink_install_files("/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/interfaces" FILES "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_cmake/srv/SetLed_Request.msg" "DESTINATION" "share/interfaces/srv")
+
+# install(FILES "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_cmake/srv/SetLed_Response.msg" "DESTINATION" "share/interfaces/srv")
+ament_cmake_symlink_install_files("/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/interfaces" FILES "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/rosidl_cmake/srv/SetLed_Response.msg" "DESTINATION" "share/interfaces/srv")
 
 # install(FILES "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/src/interfaces" FILES "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
