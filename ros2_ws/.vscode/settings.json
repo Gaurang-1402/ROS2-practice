@@ -4,5 +4,25 @@
         "editor.defaultFormatter": "ms-python.autopep8"
     },
     "python.formatting.provider": "none",
-    "C_Cpp.errorSquiggles": "enabled"
+    "C_Cpp.errorSquiggles": "enabled",
+    "python.autoComplete.extraPaths": [
+        "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/p_py_pkg",
+        "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg/lib/python3.10/site-packages",
+        "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/my_py_pkg",
+        "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages",
+        "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages",
+        "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/p_py_pkg",
+        "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/p_py_pkg/lib/python3.10/site-packages",
+        "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/build/my_py_pkg",
+        "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages",
+        "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages",
+        "/home/chief-of-mischief/Desktop/ROS-learnings/ros2_ws/install/c_py_pkg/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
 }

@@ -52,3 +52,11 @@ qtcreator-*
 
 # Catkin custom files
 CATKIN_IGNORE
+
+**/devel
+**/build
+**/install
+**/log
+**/.catkin_workspace
+**/.vscode
+**.pyc
